@@ -34,6 +34,16 @@
             ],
             "source": "mergeUSA.R",
             "target": "plotpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotmur",
+                    "type": "png"
+                }
+            ],
+            "source": "mergeUSA.R",
+            "target": "plotmur.png"
         }
     ],
     "nodes": [
@@ -61,6 +71,6 @@
             "name": "plotmur.png"
         }
     ],
-    "updated_at": "2018-10-11 15:19:56",
+    "updated_at": "2018-10-11 15:20:07",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

@@ -104,6 +104,16 @@
             ],
             "source": "mergeUSA.R",
             "target": "barmurrotsortper.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scat",
+                    "type": "png"
+                }
+            ],
+            "source": "mergeUSA.R",
+            "target": "scat.png"
         }
     ],
     "nodes": [
@@ -152,6 +162,6 @@
             "name": "scat.png"
         }
     ],
-    "updated_at": "2018-10-11 15:46:08",
+    "updated_at": "2018-10-11 15:46:18",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

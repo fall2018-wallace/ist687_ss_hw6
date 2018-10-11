@@ -23,5 +23,5 @@ clean_census <- readStates(raw_data)
 
 str(clean_census)
 
-clean_data <- clean_census
+clean_data1 <- clean_census
 

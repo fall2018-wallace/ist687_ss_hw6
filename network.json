@@ -25,7 +25,13 @@
             "target": "data.csv"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "clean_data",
+                    "type": "r_obj"
+                }
+            ],
             "source": "clean.R",
             "target": "merge.R"
         }
@@ -43,10 +49,12 @@
             "name": "data.csv"
         },
         {
+            "assigned_to": "sshete",
             "desc": "",
-            "name": "merge.R"
+            "name": "merge.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 14:30:28",
+    "updated_at": "2018-10-11 14:32:07",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

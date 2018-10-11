@@ -13,7 +13,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "merge.R"
+            "target": "mergeArrests.R"
         },
         {
             "ports": [
@@ -41,10 +41,10 @@
         {
             "assigned_to": "sshete",
             "desc": "",
-            "name": "merge.R",
+            "name": "mergeArrests.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 14:43:02",
+    "updated_at": "2018-10-11 14:44:00",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

@@ -11,7 +11,7 @@
                     "type": "csv"
                 }
             ],
-            "source": "states.csv.csv",
+            "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
         },
         {
@@ -27,7 +27,7 @@
     ],
     "nodes": [
         {
-            "name": "states.csv.csv"
+            "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
             "name": "clean.R"
@@ -36,6 +36,6 @@
             "name": "data.csv"
         }
     ],
-    "updated_at": "2018-10-11 04:34:16",
+    "updated_at": "2018-10-11 14:25:53",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

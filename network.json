@@ -17,18 +17,8 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "df",
-                    "output": "clean_data1",
+                    "output": "clean_data",
                     "type": "r_obj"
                 }
             ],
@@ -55,6 +45,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 14:33:55",
+    "updated_at": "2018-10-11 14:36:07",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

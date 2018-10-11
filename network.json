@@ -121,8 +121,11 @@
         },
         {
             "name": "barmurrot.png"
+        },
+        {
+            "name": "barmurrotsort.png"
         }
     ],
-    "updated_at": "2018-10-11 15:43:53",
+    "updated_at": "2018-10-11 15:44:25",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

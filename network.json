@@ -33,7 +33,7 @@
                 }
             ],
             "source": "mergeUSA.R",
-            "target": "myplotpop.png"
+            "target": "plotpop.png"
         }
     ],
     "nodes": [
@@ -55,9 +55,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "myplotpop.png"
+            "name": "plotpop.png"
         }
     ],
-    "updated_at": "2018-10-11 14:49:32",
+    "updated_at": "2018-10-11 15:17:43",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

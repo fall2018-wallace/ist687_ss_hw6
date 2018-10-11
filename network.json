@@ -74,6 +74,16 @@
             ],
             "source": "mergeUSA.R",
             "target": "bplotmur.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barmurrot",
+                    "type": "png"
+                }
+            ],
+            "source": "mergeUSA.R",
+            "target": "barmurrot.png"
         }
     ],
     "nodes": [
@@ -113,6 +123,6 @@
             "name": "barmurrot.png"
         }
     ],
-    "updated_at": "2018-10-11 15:43:45",
+    "updated_at": "2018-10-11 15:43:53",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

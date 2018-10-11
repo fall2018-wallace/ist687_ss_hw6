@@ -82,8 +82,11 @@
         },
         {
             "name": "bplotpop.png"
+        },
+        {
+            "name": "bplotmur.png"
         }
     ],
-    "updated_at": "2018-10-11 15:25:15",
+    "updated_at": "2018-10-11 15:26:05",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

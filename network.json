@@ -126,9 +126,6 @@
             "task_status": "in progress"
         },
         {
-            "name": "data.csv"
-        },
-        {
             "name": "plotpop.png"
         },
         {
@@ -162,6 +159,6 @@
             "name": "scat.png"
         }
     ],
-    "updated_at": "2018-10-11 15:46:18",
+    "updated_at": "2018-10-11 15:46:29",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

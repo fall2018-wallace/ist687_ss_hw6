@@ -54,6 +54,11 @@
             ],
             "source": "mergeUSA.R",
             "target": "bplotpop.png"
+        },
+        {
+            "ports": [],
+            "source": "mergeUSA.R",
+            "target": "bplotmur.png"
         }
     ],
     "nodes": [
@@ -87,6 +92,6 @@
             "name": "bplotmur.png"
         }
     ],
-    "updated_at": "2018-10-11 15:26:05",
+    "updated_at": "2018-10-11 15:26:13",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

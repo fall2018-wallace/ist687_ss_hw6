@@ -59,6 +59,16 @@
             "ports": [],
             "source": "mergeUSA.R",
             "target": "bplotmur.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barmur",
+                    "type": "png"
+                }
+            ],
+            "source": "mergeUSA.R",
+            "target": "barmur.png"
         }
     ],
     "nodes": [
@@ -95,6 +105,6 @@
             "name": "barmur.png"
         }
     ],
-    "updated_at": "2018-10-11 15:26:37",
+    "updated_at": "2018-10-11 15:26:47",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

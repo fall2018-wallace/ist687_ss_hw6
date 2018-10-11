@@ -5,7 +5,7 @@ arrests <- USArrests
 
 arrests
 
-df
+df1<-df
 
 arrests$Statename <- rownames(arrests)
 

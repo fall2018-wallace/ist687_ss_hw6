@@ -43,8 +43,11 @@
             "desc": "",
             "name": "mergeUSA.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "myplotpop.png"
         }
     ],
-    "updated_at": "2018-10-11 14:48:02",
+    "updated_at": "2018-10-11 14:49:13",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

@@ -1,0 +1,164 @@
+{
+    "collaborators": [
+        "sshete"
+    ],
+    "created_at": "2018-10-11 03:46:37",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "c",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "mergeUSA.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotmur",
+                    "type": "png"
+                }
+            ],
+            "source": "mergeUSA.R",
+            "target": "plotmur.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plotpop",
+                    "type": "png"
+                }
+            ],
+            "source": "mergeUSA.R",
+            "target": "plotpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bplotpop",
+                    "type": "png"
+                }
+            ],
+            "source": "mergeUSA.R",
+            "target": "bplotpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barmur",
+                    "type": "png"
+                }
+            ],
+            "source": "mergeUSA.R",
+            "target": "barmur.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barmur",
+                    "type": "png"
+                }
+            ],
+            "source": "mergeUSA.R",
+            "target": "bplotmur.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barmurrot",
+                    "type": "png"
+                }
+            ],
+            "source": "mergeUSA.R",
+            "target": "barmurrot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barmurrotsort",
+                    "type": "png"
+                }
+            ],
+            "source": "mergeUSA.R",
+            "target": "barmurrotsort.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barmurrotsortper",
+                    "type": "png"
+                }
+            ],
+            "source": "mergeUSA.R",
+            "target": "barmurrotsortper.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scat",
+                    "type": "png"
+                }
+            ],
+            "source": "mergeUSA.R",
+            "target": "scat.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "sshete",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plotpop.png"
+        },
+        {
+            "name": "plotmur.png"
+        },
+        {
+            "assigned_to": "sshete",
+            "desc": "",
+            "name": "mergeUSA.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "bplotpop.png"
+        },
+        {
+            "name": "bplotmur.png"
+        },
+        {
+            "name": "barmur.png"
+        },
+        {
+            "name": "barmurrot.png"
+        },
+        {
+            "name": "barmurrotsort.png"
+        },
+        {
+            "name": "barmurrotsortper.png"
+        },
+        {
+            "name": "scat.png"
+        }
+    ],
+    "updated_at": "2018-10-11 15:46:29",
+    "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
+}

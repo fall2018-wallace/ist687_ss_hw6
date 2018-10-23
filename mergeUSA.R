@@ -20,7 +20,7 @@ merge_df
 
 plotpop <- ggplot(merge_df, aes(x=Population)) + geom_histogram(binwidth = 500000,color="blue") + ggtitle("Histogram of Population")
 
-plotmur <- ggplot(merge_df, aes(x=Murder)) + geom_histogram(binwidth = 5, color="red")+ ggtitle("Histogram of Murder")
+plotmur <- ggplot(merge_df, aes(x=Murder)) + geom_histogram(binwidth = 500000, color="red")+ ggtitle("Histogram of Murder")
 
 
 

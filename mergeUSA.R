@@ -18,7 +18,7 @@ merge_df <- merge(arrests,df,by="Statename")
 merge_df
 #4) Create a histogram using ggplot2() for the population and a different histogram for the murder rate
 
-plotpop <- ggplot(merge_df, aes(x=Population)) + geom_histogram(binwidth = 500000) + ggtitle("Histogram of Population")
+plotpop <- ggplot(merge_df, aes(x=Population)) + geom_histogram(binwidth = 500000,color="blue") + ggtitle("Histogram of Population")
 
 plotmur <- ggplot(merge_df, aes(x=Murder)) + geom_histogram(binwidth = 5)+ ggtitle("Histogram of Murder")
 

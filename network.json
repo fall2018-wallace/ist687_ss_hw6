@@ -127,12 +127,6 @@
             "name": "plotmur.png"
         },
         {
-            "assigned_to": "sshete",
-            "desc": "",
-            "name": "mergeUSA.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "bplotpop.png"
         },
         {
@@ -158,8 +152,14 @@
             "desc": "",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sshete",
+            "desc": "",
+            "name": "mergeUSA.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-23 21:42:26",
+    "updated_at": "2018-10-23 21:42:28",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

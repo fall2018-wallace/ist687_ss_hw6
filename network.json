@@ -108,7 +108,7 @@
         {
             "ports": [
                 {
-                    "output": "bplotmur.png",
+                    "output": "bplotmurder.png",
                     "type": "png"
                 }
             ],
@@ -160,6 +160,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-09 19:45:03",
+    "updated_at": "2018-11-09 19:46:30",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

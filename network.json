@@ -145,8 +145,11 @@
             "desc": "",
             "name": "mergeUSA.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "barpmurder.png"
         }
     ],
-    "updated_at": "2018-11-09 19:58:03",
+    "updated_at": "2018-11-09 19:58:17",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

@@ -28,7 +28,7 @@ plotmur <- ggplot(merge_df, aes(x=Murder)) + geom_histogram(binwidth = 5, color=
 
 bplotpop <- ggplot(merge_df,aes(x=factor(0),y=Population)) + geom_boxplot()+ ggtitle("Boxplot of Population")
 
-rm(bplotmur)
+#rm(bplotmur)
 bplotmur <- ggplot(merge_df,aes(x=factor(0),y=Murder)) + geom_boxplot()+ ggtitle("Boxplot of Murder")
 
 

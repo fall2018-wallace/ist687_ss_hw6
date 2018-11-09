@@ -113,7 +113,7 @@
                 }
             ],
             "source": "mergeUSA.R",
-            "target": "bplotmur.png"
+            "target": "bplotmurder.png"
         }
     ],
     "nodes": [
@@ -130,7 +130,7 @@
             "name": "bplotpop.png"
         },
         {
-            "name": "bplotmur.png"
+            "name": "bplotmurder.png"
         },
         {
             "name": "barmur.png"
@@ -160,6 +160,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-09 19:46:30",
+    "updated_at": "2018-11-09 19:46:38",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

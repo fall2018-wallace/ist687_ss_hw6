@@ -151,15 +151,15 @@
             "task_status": "in progress"
         },
         {
+            "name": "barpmurder.png"
+        },
+        {
             "assigned_to": "sshete",
             "desc": "",
             "name": "mergeUSA.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "barpmurder.png"
         }
     ],
-    "updated_at": "2018-11-09 20:06:53",
+    "updated_at": "2018-11-09 20:07:08",
     "url": "https://github.com/fall2018-wallace/ist687_ss_hw6"
 }

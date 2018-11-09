@@ -28,8 +28,7 @@ plotmur <- ggplot(merge_df, aes(x=Murder)) + geom_histogram(binwidth = 5, color=
 
 bplotpop <- ggplot(merge_df,aes(x=factor(0),y=Population)) + geom_boxplot()+ ggtitle("Boxplot of Population")
 
-#rm(bplotmur)
-bplotmur <- ggplot(merge_df,aes(x=factor(0),y=Murder)) + geom_boxplot()+ ggtitle("Boxplot of Murder")
+bplotmurder <- ggplot(merge_df,aes(x=factor(0),y=Murder)) + geom_boxplot()+ ggtitle("Boxplot of Murder")
 
 
 #6) Create a block comment explaining which visualization (boxplot or histogram) you thought was more helpful (explain why)
